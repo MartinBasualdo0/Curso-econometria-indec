@@ -14,7 +14,7 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 ## Columnas relevantes
 
 1. ANO4: Año de relevamiento (YYYY)
-2. TRIM: trimestre
+2. TRIMESTRE: trimestre
    **Información sobre el/la encuestado/a**
 3. AGLOMERADO: grandes aglomerados urbanos.
 4. CH04: Sexo.
@@ -42,3 +42,5 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 2. Salario horario.
 
 ### Tratamiento de outliers
+
+* La columna `P21` tiene valores con -9, que es sinónimo de no respuesta. Se elimina.
