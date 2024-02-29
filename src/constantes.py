@@ -15,9 +15,11 @@ columnas_relevantes_eph = [
  "CH14",
  "NIVEL_ED",
  #Ocupación
- "ESTADO",
+ "INTENSI",
+#  "ESTADO",
  "CAT_OCUP",
  "PP3E_TOT",
  "PP04A",
+ "PP04D_COD",
  "P21"
 ]
