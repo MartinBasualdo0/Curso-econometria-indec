@@ -2,6 +2,8 @@
 
 La idea de la parte práctica es hacer ejercicios sencillos y rápidos, que minimice la frustración. Tiene que combinar el análisis descriptivo (gráficos) y cuantitativo (tests) para darle una perspectiva intuitiva al contenido teórico. Los datos parten de la encuesta permanente de hogares del tercer trimestre de 2023. 
 
+El dataset final será subido a [Kaggle](https://www.kaggle.com/datasets/martinbasualdo/encuesta-permanente-de-hogares-procesada/settings).
+
 # Fuente
 
 * [Encuesta Permanente de Hogares](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos). Tercer trimestre 2023 (último publicado al día de la fecha).
