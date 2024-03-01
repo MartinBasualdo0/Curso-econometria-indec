@@ -25,6 +25,7 @@ columnas_relevantes_eph = [
 ]
 
 anios_educacion_nivel_ed = {
+    #Toma los "NIVEL_ED" y le asigna un valor
     1: (0+7)/2, #primario incompleto y educación especial
     2: 7, #primario completo
     3: (7+12)/2, #Secundario incompleto
