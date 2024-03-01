@@ -44,6 +44,7 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 
 ### Tratamiento de outliers / filtros aplicados
 
-* `INTENSI = 2` para filtrar por "ocupados plenos".
-* La columna `P21 != 9`, es el código para no respuesta.
+* `INTENSI = 2` para filtrar por "ocupados plenos". NO LO SACO POR AHORA PORQUE REDUCE LA MUESTRA.
+* La columna `P21 > 0`, el "-9" es para no respuesta. No nos interesan los que no tienen ingresos.
 * `CAT_OCUP = 3` para filtrar por "Obrero o empleado".
+* `PP3E_TOT > 0 y < 999`, hay gente que reporta ingresos pero no trabajó en la semana, y hay otros que directamente reporta una locura.
