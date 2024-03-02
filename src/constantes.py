@@ -1,3 +1,4 @@
+import numpy as np
 columnas_relevantes_eph = [
  "ANO4",
  "TRIMESTRE",
@@ -26,11 +27,27 @@ columnas_relevantes_eph = [
 
 anios_educacion_nivel_ed = {
     #Toma los "NIVEL_ED" y le asigna un valor
-    1: (0+7)/2, #primario incompleto y educación especial
-    2: 7, #primario completo
-    3: (7+12)/2, #Secundario incompleto
+    1: (0+6)/2, #primario incompleto y educación especial
+    2: 6, #primario completo
+    3: (6+12)/2, #Secundario incompleto
     4: 12, #Secundario completo
-    5: (12+18)/2, #Universitario incompleto
-    6: 18, #Universitario completo
+    5: (12+17)/2, #Universitario incompleto
+    6: 17, #Universitario completo
     7: 0, #Sin instrucción
+}
+
+anios_educacion_CH12 = {
+    #Toma los "CH12" y le asigna un valor
+    #El primero es el terminado, el segundo es la media (en caso de incompleto)
+    #El tercero es el inicial (en caso de respuesta de CH14)
+    #[Anios si termino, anios si no termino, anios si responde cual anio aprobo]
+    1: [0, 0, np.nan],#Jardín/preescolar. NaN para que no sume CH14
+    2: [6, 6/2, 0],#Primario
+    3: [9, 9/2, 0],#EGB
+    4: [12, (6+12)/2, 6],#Secundario
+    5: [12, (6+12)/2, 6],#Polimodal
+    6: [15, (12+15)/2, 12],#Terciario
+    7: [17, (17+12)/2, 12],#Universitario
+    8: [19, (19+17)/2, 17],#Posgrado universitario
+    9: [0,0, np.nan],#Educación especial (discapacitado)
 }
