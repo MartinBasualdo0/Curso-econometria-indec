@@ -45,10 +45,10 @@ anios_educacion_CH12 = {
     1: [0, 0, np.nan],#Jardín/preescolar. NaN para que no sume CH14
     2: [6, 6/2, 0],#Primario
     3: [9, 9/2, 0],#EGB
-    4: [12, ((6+12)/2).round(0), 6],#Secundario
-    5: [12, ((6+12)/2).round(0), 6],#Polimodal
-    6: [15, ((12+15)/2).round(0), 12],#Terciario
-    7: [17, ((17+12)/2).round(0), 12],#Universitario
-    8: [19, ((19+17)/2).round(0), 17],#Posgrado universitario
+    4: [12, round((6+12)/2,0), 6],#Secundario
+    5: [12, round((6+12)/2,0), 6],#Polimodal
+    6: [15, round((12+15)/2,0), 12],#Terciario
+    7: [17, round((17+12)/2,0), 12],#Universitario
+    8: [19, round((19+17)/2,0), 17],#Posgrado universitario
     9: [0,0, np.nan],#Educación especial (discapacitado)
 }
