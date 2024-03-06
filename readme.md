@@ -29,7 +29,7 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 9. CH11: Ese establecimiento educativo es público / privado?
 10. CH12: nivel más alto que cursó
 11. CH13: ¿Finalizó ese nivel?
-12. CH14: ¿Cuál fue el último año que aprobó? **Se desechó por tener el 65% de no respuesta. Hay respuestas de 8 años**
+12. CH14: ¿Cuál fue el último año que aprobó? **Tiene 65% de no respuesta.**
 13. NIVEL_ED: Nivel educativo
     **Ocupación**
 14. INTENSI: intensidad de la ocupación.
