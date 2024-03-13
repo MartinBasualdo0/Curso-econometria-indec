@@ -17,12 +17,16 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 
 1. ANO4: Año de relevamiento (YYYY)
 2. TRIMESTRE: trimestre
-   **Información sobre el/la encuestado/a**
+
+**Información sobre el/la encuestado/a**
+
 3. AGLOMERADO: grandes aglomerados urbanos.
 4. CH04: Sexo.
 5. CH06: edad.
 6. CH15: ¿Dónde nació? (para ver si es inmigrante)
-   **Educación**
+
+**Educación**
+
 7. CH09: ¿Sabe leer y escribir?
 8. CH10: ¿Asiste o asistió a algún establecimiento educativo? (colegio, escuela,
    universidad)
@@ -31,13 +35,15 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 11. CH13: ¿Finalizó ese nivel?
 12. CH14: ¿Cuál fue el último año que aprobó? **Tiene 65% de no respuesta.**
 13. NIVEL_ED: Nivel educativo
-    **Ocupación**
-14. INTENSI: intensidad de la ocupación.
-15. CAT_OCUP: Categoría ocupacional
-16. PP3E_TOT: Total de horas que trabajó en la semana en la ocupación principal
-17. PP04A: ¿El negocio/empresa/institución/actividad en la que trabaja es... (se refiere al que trabaja más horas semanales) Estatal / privada
-18. PP04D_COD: Código de ocupación (Ver Clasificador Nacional de Ocupaciones, CNO, versión 2001)
-19. P21: Monto de ingreso de la ocupación principal.
+
+**Ocupación**
+
+1. INTENSI: intensidad de la ocupación.
+11. CAT_OCUP: Categoría ocupacional
+12. PP3E_TOT: Total de horas que trabajó en la semana en la ocupación principal
+13. PP04A: ¿El negocio/empresa/institución/actividad en la que trabaja es... (se refiere al que trabaja más horas semanales) Estatal / privada
+14. PP04D_COD: Código de ocupación (Ver Clasificador Nacional de Ocupaciones, CNO, versión 2001)
+15. P21: Monto de ingreso de la ocupación principal.
 
 ### Columnas calculadas
 
