@@ -47,7 +47,7 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
 
 ### Columnas calculadas
 
-1. Años de educación. Dos alternativas (actualmente se optó por la segunda).
+1. **Años de educación**. Dos alternativas (actualmente se optó por la segunda).
 
    A. Se tomó la siguiente relación para la columna "NIVEL_ED":
 
@@ -69,8 +69,8 @@ Descargo la base de datos en formato `.txt` en la carpeta "datos-eph", luego des
    6. Si CH12 es terciario: 15 años de educación. Si no es terminado, pero contamos información de años avanzados (CH14 distinto a 98, 99 y NaN), se suma 12 + CH14. Si no es terminado y no contamos con información de años avanzados, se toma la media de los años adicionados y se lo redondea a un dígito para evitar el decimal (14).
    7. Si CH12 es universitario: 17 años de educación. Si no es terminado, pero contamos información de años avanzados (CH14 distinto a 98, 99 y NaN), se suma 12 + CH14. Si no es terminado y no contamos con información de años avanzados, se toma la media de los años adicionados y se lo redondea a un dígito para evitar el decimal (15).
    8. Si CH12 es posgrado universitario: 19 años de educación. Si no es terminado, pero contamos información de años avanzados (CH14 distinto a 98, 99 y NaN), se suma 17+ CH14. Si no es terminado y no contamos con información de años avanzados, se toma la media de los años adicionados (18).
-2. Salario horario. Resultado de `P21/P3E_TOT`.
-3. Años de experiencia: Resultado de `Edad (CH06) - años de educación - 6`. Suponemos que la persona se empieza a educar a los seis años, y una vez que deja de estudiar se pone a trabajar y no para nunca; también se hace el supuesto que mientras estudia no trabaja.
+2. **Salario horario**. Resultado de `P21/P3E_TOT`.
+3. **Años de experiencia**: Resultado de `Edad (CH06) - años de educación - 6`. Suponemos que la persona se empieza a educar a los seis años, y una vez que deja de estudiar se pone a trabajar y no para nunca; también se hace el supuesto que mientras estudia no trabaja.
 
 ### Tratamiento de outliers / filtros aplicados
 
