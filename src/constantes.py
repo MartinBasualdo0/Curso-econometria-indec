@@ -22,6 +22,7 @@ columnas_relevantes_eph = [
  "PP3E_TOT",
  "PP04A",
  "PP04D_COD",
+#  "PP07A", #n_años último trabajo
  "P21"
 ]
 
